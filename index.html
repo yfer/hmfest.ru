@@ -57,33 +57,38 @@
               <div class="row">
                 <div class="input-field col s6 l4">
                   <i class="material-icons prefix">person</i>
-                  <input id="lastname" type="text" class="validate" required>
+                  <input id="lastname" name="lastname" type="text" required>
                   <label for="lastname">Фамилия <i class="required">*</i></label>
+                  <span class="helper-text"></span>
                 </div>
                 <div class="input-field col s6 l4">
-                  <input id="firstname" type="text" class="validate" required>
+                  <input id="firstname" name="firstname" type="text" required>
                   <label for="firstname">Имя <i class="required">*</i></label>
+                  <span class="helper-text"></span>
                 </div>
                 <div class="input-field col s12 l4">
                   <i class="material-icons prefix">link</i>
-                  <input id="cf_1114" type="text" class="validate" required>
+                  <input id="cf_1114" name="cf_1114" type="text" required>
                   <label for="cf_1114">Личная страница VK.com <i class="required">*</i></label>
+                  <span class="helper-text"></span>
                 </div>
                 <div class="input-field col s12 l4">
                   <i class="material-icons prefix">email</i>
-                  <input id="email" type="email" class="validate">
+                  <input id="email" name="email" type="email" class="email">
                   <label for="email">Электронная почта (Email)</label>
-                  <span class="helper-text" data-error="Введённый email некорректен" data-success="right"></span>
+                  <span class="helper-text"></span>
                 </div>
                 <div class="input-field col s12 l4">
                   <i class="material-icons prefix">phone</i>
-                  <input id="mobile" type="text" class="validate" required>
+                  <input id="mobile" name="mobile" type="text" required>
                   <label for="mobile">Контактный номер телефона <i class="required">*</i></label>
+                  <span class="helper-text"></span>
                 </div>
                 <div class="input-field col s12 l4">
                   <i class="material-icons prefix">link</i>
-                  <input id="cf_1112" type="text" class="validate" required>
+                  <input id="cf_1112" name="cf_1112" type="text">
                   <label for="cf_1112">Группа VK.com или сайт <i class="required">*</i></label>
+                  <span class="helper-text"></span>
                 </div>
               </div>
             </div>
@@ -100,79 +105,117 @@
               <div class="row" id='fiz'>
                 <div class="input-field col s12 l6">
                   <i class="material-icons prefix">person</i>
-                  <input id="cf_1116" type="text" class="validate" required>
+                  <input id="cf_1116" name="cf_1116" type="text">
                   <label for="cf_1116">ФИО по паспорту <i class="required">*</i></label>
+                  <span class="helper-text"></span>
                 </div>
                 <div class="input-field col s6 l3">
-                  <input id="cf_1122" type="text" class="validate" required>
+                  <input id="cf_1122" name="cf_1122" type="text" class="digits">
                   <label for="cf_1122">Серия паспорта <i class="required">*</i></label>
+                  <span class="helper-text"></span>
                 </div>
                 <div class="input-field col s6 l3">
-                  <input id="cf_1120" type="text" class="validate" required>
+                  <input id="cf_1120" name="cf_1120" type="text" class="digits">
                   <label for="cf_1120">Номер паспорта <i class="required">*</i></label>
+                  <span class="helper-text"></span>
                 </div>
                 <div class="input-field col s6 l4">
-                  <input id="cf_1124" type="date" class="validate" required>
+                  <input id="cf_1124" name="cf_1124" type="date">
                   <label for="cf_1124">Дата выдачи <i class="required">*</i></label>
+                  <span class="helper-text"></span>
                 </div>
                 <div class="input-field col s6 l4">
-                  <input id="cf_1126" type="text" class="validate" required>
+                  <input id="cf_1126" name="cf_1126" type="text">
                   <label for="cf_1126">Кем выдан <i class="required">*</i></label>
+                  <span class="helper-text"></span>
                 </div>
                 <div class="input-field col s6 l4">
-                  <input id="cf_1128" type="text" class="validate" required>
+                  <input id="cf_1128" name="cf_1128" type="text">
                   <label for="cf_1128">Код подразделения <i class="required">*</i></label>
+                  <span class="helper-text"></span>
                 </div>
               </div>
               <div class="row" id='yur'>
                 <div class="input-field col s6 l4">
-                  <input id="company" type="text" class="validate" required>
+                  <input id="company" name="company" type="text">
                   <label for="company">Наименование организации <i class="required">*</i></label>
+                  <span class="helper-text"></span>
                 </div>
                 <div class="input-field col s6 l4">
-                  <input id="cf_1132" type="text" class="validate" required>
+                  <input id="cf_1132" name="cf_1132" type="text">
                   <label for="cf_1132">Наименование банка <i class="required">*</i></label>
+                  <span class="helper-text"></span>
                 </div>
                 <div class="input-field col s6 l4">
-                  <input id="cf_1134" type="text" class="validate" required>
+                  <input id="cf_1134" name="cf_1134" type="text">
                   <label for="cf_1134">Расчетный счёт <i class="required">*</i></label>
+                  <span class="helper-text"></span>
                 </div>
                 <div class="input-field col s6 l4">
-                  <input id="cf_1136" type="text" class="validate" required>
+                  <input id="cf_1136" name="cf_1136" type="text">
                   <label for="cf_1136">ИНН <i class="required">*</i></label>
+                  <span class="helper-text"></span>
                 </div>
                 <div class="input-field col s6 l4">
-                  <input id="cf_1138" type="text" class="validate" required>
+                  <input id="cf_1138" name="cf_1138" type="text">
                   <label for="cf_1138">КПП <i class="required">*</i></label>
+                  <span class="helper-text"></span>
                 </div>
                 <div class="input-field col s6 l4">
-                  <input id="cf_1140" type="text" class="validate" required>
+                  <input id="cf_1140" name="cf_1140" type="text">
                   <label for="cf_1140">БИК Банка <i class="required">*</i></label>
+                  <span class="helper-text"></span>
                 </div>
                 <div class="input-field col s6 l4">
-                  <input id="cf_1142" type="text" class="validate" required>
+                  <input id="cf_1142" name="cf_1142" type="text">
                   <label for="cf_1142">Кор/сч. Банка <i class="required">*</i></label>
+                  <span class="helper-text"></span>
                 </div>
               </div>
             </div>
             <h4 style="text-align: left">Фестиваль:</h4>
             <div class="input-field col s6">
-              <select class="select" multiple>
+              <select class="datesselect" multiple>
                 <option value="" disabled>Выберите</option>
-                <option value="1">26,27 января 2019</option>
-                <option value="2">9,10 февраля 2019</option>
-                <option value="2">23,24 февраля 2019</option>
-                <option value="2">2,3 марта 2019</option>
-                <option value="3">8,9,10 марта 2019</option>
-                <option value="3">23,24 марта 2019</option>
+                <option value="24,25 августа 2019">24,25 августа 2019</option>
+                <option value="31 августа, 1 сентября 2019">31 августа, 1 сентября 2019</option>
+
+                <option value="14,15 сентября 2019">14,15 сентября 2019</option>
+                <option value="28,29 сентября 2019">28,29 сентября 2019</option>
+
+                <option value="12,13 октября 2019">12,13 октября 2019</option>
+                <option value="26,27 октября 2019">26,27 октября 2019</option>
+
+                <option value="9,10 ноября 2019">9,10 ноября 2019</option>
+                <option value="16,17 ноября 2019">16,17 ноября 2019</option>
+                <option value="23 ноября 2019">23 ноября 2019</option>
+
+                <option value="30 ноября,1 декабря 2019">30 ноября,1 декабря 2019</option>
+                <option value="7,8 декабря 2019">7,8 декабря 2019</option>
+                <option value="14,15 декабря 2019">14,15 декабря 2019</option>
+                <option value="21,22 декабря 2019">21,22 декабря 2019</option>
+                <option value="25-29 декабря 2019">25-29 декабря 2019</option>
+
+                <option value="3-7 января 2020">3-7 января 2020</option>
+                <option value="25,26 января 2020">25,26 января 2020</option>
+
+                <option value="15,16 февраля 2020">15,16 февраля 2020</option>
+                <option value="22,23 февраля 2020">22,23 февраля 2020</option>
+
+                <option value="29 февраля, 1 марта 2020">29 февраля, 1 марта 2020</option>
+                <option value="6-8 марта 2020">6-8 марта 2020</option>
+                <option value="21,22 марта 2020">21,22 марта 2020</option>
+
+                <option value="11,12 апреля 2020">11,12 апреля 2020</option>
+                <option value="25,26 апреля 2020">25,26 апреля 2020</option>
               </select>
-              <label>Дата участия</label>
+              <label>Даты участия</label>
             </div>
             <div class="row">
               <div class="input-field col s12">
                 <i class="material-icons prefix">mode_edit</i>
-                <input id="comment" type="text" class="validate">
-                <label for="comment">Ваши пожелания (дополнительный стул, оборудование)</label>
+                <textarea id="description" name="description" class="validate materialize-textarea"></textarea>
+                <label for="description">Ваши пожелания (дополнительный стул, оборудование)</label>
               </div>
             </div>
             <div class="row">
@@ -202,8 +245,12 @@
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/localization/messages_ru.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  
 
 </body>
 
