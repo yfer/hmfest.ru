@@ -1,3 +1,222 @@
-<h1>HMFest.ru</h1>
+<!DOCTYPE html>
+<html lang="en">
 
-<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"><form id="__vtigerWebForm" name="Лиды с hmfest.ru" action="http://hmfest.ru/modules/Webforms/capture.php" method="post" accept-charset="utf-8" enctype="multipart/form-data"><input type="hidden" name="__vtrftk" value="sid:7fca06e0654bed193337d6031adc0e18a0e4fc56,1555930953"><input type="hidden" name="publicid" value="cc625f5e87266a570d2473632f2f62c4"><input type="hidden" name="urlencodeenable" value="1"><input type="hidden" name="name" value="Лиды с hmfest.ru"><table><tbody><tr><td><label>Фамилия*</label></td><td><input type="text" name="lastname" data-label="" value="" required=""></td></tr><tr><td><label>Имя*</label></td><td><input type="text" name="firstname" data-label="" value="" required=""></td></tr><tr><td><label>Моб.*</label></td><td><input type="text" name="mobile" data-label="" value="" required=""></td></tr><tr><td><label>Основной адрес электронной почты</label></td><td><input type="email" name="email" data-label="" value=""></td></tr><tr><td><label>Группа vk.com - Адрес сайта*</label></td><td><input type="text" name="cf_1112" data-label="" value="" required=""></td></tr><tr><td><label>Страница vk.com*</label></td><td><input type="text" name="cf_1114" data-label="" value="" required=""></td></tr><tr><td><select name="leadsource" data-label="leadsource" required="" hidden=""><option value="">Выберите значение</option><option value="Cold Call">Холодный звонок</option><option value="Existing Customer">Существующий клиент</option><option value="Self Generated">Самопроизвольный</option><option value="Employee">Сотрудник</option><option value="Partner">Партнер</option><option value="Public Relations">Публичные связи</option><option value="Direct Mail">Почтовая рассылка</option><option value="Conference">Конференция</option><option value="Trade Show">Выставка</option><option value="Web Site" selected="">Веб-сайт</option><option value="Word of mouth">По наслышке</option><option value="Other">Другое</option></select></td></tr><tr><td><label>ФИО по паспорту</label></td><td><input type="text" name="cf_1116" data-label="" value=""></td></tr><tr><td><label>Номер паспорта</label></td><td><input type="text" name="cf_1120" data-label="" value=""></td></tr><tr><td><label>Серия паспорта</label></td><td><input type="text" name="cf_1122" data-label="" value=""></td></tr><tr><td><label>Дата выдачи паспорта</label></td><td><input type="date" name="cf_1124" data-label="" value="">(yyyy-mm-dd)</td></tr><tr><td><label>Кем выдан</label></td><td><input type="text" name="cf_1126" data-label="" value=""></td></tr><tr><td><label>Код подразделения</label></td><td><input type="text" name="cf_1128" data-label="" value=""></td></tr><tr><td><label>Организация</label></td><td><input type="text" name="company" data-label="" value=""></td></tr><tr><td><label>Отчество</label></td><td><input type="text" name="cf_1108" data-label="" value=""></td></tr><tr><td><label>Наименование банка</label></td><td><input type="text" name="cf_1132" data-label="" value=""></td></tr><tr><td><label>Расчетный счет</label></td><td><input type="text" name="cf_1134" data-label="" value=""></td></tr><tr><td><label>КПП</label></td><td><input type="text" name="cf_1138" data-label="" value=""></td></tr><tr><td><label>ИНН</label></td><td><input type="text" name="cf_1136" data-label="" value=""></td></tr><tr><td><label>Кор счет</label></td><td><input type="text" name="cf_1142" data-label="" value=""></td></tr><tr><td><label>БИК Банка</label></td><td><input type="text" name="cf_1140" data-label="" value=""></td></tr><tr><td><label>Описание</label></td><td><input type="" name="description" data-label="" value=""></td></tr></tbody></table><input type="submit" value="Submit"></form><script  type="text/javascript">window.onload = function() { var N=navigator.appName, ua=navigator.userAgent, tem;var M=ua.match(/(opera|chrome|safari|firefox|msie)\/?\s*(\.?\d+(\.\d+)*)/i);if(M && (tem= ua.match(/version\/([\.\d]+)/i))!= null) M[2]= tem[1];M=M? [M[1], M[2]]: [N, navigator.appVersion, "-?"];var browserName = M[0];var form = document.getElementById("__vtigerWebForm"), inputs = form.elements; form.onsubmit = function() { var required = [], att, val; for (var i = 0; i < inputs.length; i++) { att = inputs[i].getAttribute("required"); val = inputs[i].value; type = inputs[i].type; if(type == "email") {if(val != "") {var elemLabel = inputs[i].getAttribute("label");var emailFilter = /^[_/a-zA-Z0-9]+([!"#$%&()*+,./:;<=>?\^_`{|}~-]?[a-zA-Z0-9/_/-])*@[a-zA-Z0-9]+([\_\-\.]?[a-zA-Z0-9]+)*\.([\-\_]?[a-zA-Z0-9])+(\.?[a-zA-Z0-9]+)?$/;var illegalChars= /[\(\)\<\>\,\;\:\"\[\]]/ ;if (!emailFilter.test(val)) {alert("For "+ elemLabel +" field please enter valid email address"); return false;} else if (val.match(illegalChars)) {alert(elemLabel +" field contains illegal characters");return false;}}}if (att != null) { if (val.replace(/^\s+|\s+$/g, "") == "") { required.push(inputs[i].getAttribute("label")); } } } if (required.length > 0) { alert("The following fields are required: " + required.join()); return false; } var numberTypeInputs = document.querySelectorAll("input[type=number]");for (var i = 0; i < numberTypeInputs.length; i++) { val = numberTypeInputs[i].value;var elemLabel = numberTypeInputs[i].getAttribute("label");var elemDataType = numberTypeInputs[i].getAttribute("datatype");if(val != "") {if(elemDataType == "double") {var numRegex = /^[+-]?\d+(\.\d+)?$/;}else{var numRegex = /^[+-]?\d+$/;}if (!numRegex.test(val)) {alert("For "+ elemLabel +" field please enter valid number"); return false;}}}var dateTypeInputs = document.querySelectorAll("input[type=date]");for (var i = 0; i < dateTypeInputs.length; i++) {dateVal = dateTypeInputs[i].value;var elemLabel = dateTypeInputs[i].getAttribute("label");if(dateVal != "") {var dateRegex = /^[1-9][0-9]{3}-(0[1-9]|1[0-2]|[1-9]{1})-(0[1-9]|[1-2][0-9]|3[0-1]|[1-9]{1})$/;if(!dateRegex.test(dateVal)) {alert("For "+ elemLabel +" field please enter valid date in required format"); return false;}}}var inputElems = document.getElementsByTagName("input");var totalFileSize = 0;for(var i = 0; i < inputElems.length; i++) {if(inputElems[i].type.toLowerCase() === "file") {var file = inputElems[i].files[0];if(typeof file !== "undefined") {var totalFileSize = totalFileSize + file.size;}}}if(totalFileSize > 52428800) {alert("Maximum allowed file size including all files is 50MB.");return false;}}; }</script>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hand Made Festival - заявка на участие</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <div class="row center">
+          <h5 class="header col s12 light">Hand Made Festival - всегда уютный и сказочный фестиваль, лучшие мастера
+            Санкт-Петербурга, их удивительные работы и мастер-классы. </h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h1>Заявка на участие</h1>
+          <form id="__vtigerWebForm" name="Лиды с hmfest.ru" action="http://hmfest.ru/modules/Webforms/capture.php"
+            method="post" accept-charset="utf-8" enctype="multipart/form-data">
+            <input type="hidden" name="__vtrftk" value="sid:7fca06e0654bed193337d6031adc0e18a0e4fc56,1555930953">
+            <input type="hidden" name="publicid" value="cc625f5e87266a570d2473632f2f62c4">
+            <input type="hidden" name="urlencodeenable" value="1">
+            <input type="hidden" name="name" value="Лиды с hmfest.ru">
+            <select name="leadsource" data-label="leadsource" required="" hidden="">
+              <option value="">Выберите значение</option>
+              <option value="Cold Call">Холодный звонок</option>
+              <option value="Existing Customer">Существующий клиент</option>
+              <option value="Self Generated">Самопроизвольный</option>
+              <option value="Employee">Сотрудник</option>
+              <option value="Partner">Партнер</option>
+              <option value="Public Relations">Публичные связи</option>
+              <option value="Direct Mail">Почтовая рассылка</option>
+              <option value="Conference">Конференция</option>
+              <option value="Trade Show">Выставка</option>
+              <option value="Web Site" selected="">Веб-сайт</option>
+              <option value="Word of mouth">По наслышке</option>
+              <option value="Other">Другое</option>
+            </select>
+            <div class="row">
+              <div class="input-field col s6 l4">
+                <i class="material-icons prefix">person</i>
+                <input id="lastname" type="text" class="validate">
+                <label for="lastname">Фамилия</label>
+              </div>
+              <div class="input-field col s6 l4">
+                <input id="firstname" type="text" class="validate">
+                <label for="firstname">Имя</label>
+              </div>
+              <div class="input-field col s12 l4">
+                <i class="material-icons prefix">link</i>
+                <input id="cf_1114" type="text" class="validate">
+                <label for="cf_1114">Личная страница VK.com</label>
+              </div>
+              <div class="input-field col s12 l4">
+                <i class="material-icons prefix">email</i>
+                <input id="email" type="email" class="validate">
+                <label for="email">Электронная почта (Email)</label>
+              </div>
+              <div class="input-field col s12 l4">
+                <i class="material-icons prefix">phone</i>
+                <input id="mobile" type="text" class="validate">
+                <label for="mobile">Контактный номер телефона</label>
+              </div>
+              <div class="input-field col s12 l4">
+                <i class="material-icons prefix">link</i>
+                <input id="cf_1112" type="text" class="validate">
+                <label for="cf_1112">Группа VK.com или сайт</label>
+              </div>
+            </div>
+            <h4 style="text-align: left">Я участвую как:</h4>
+            <div>
+              <div class="row">
+                <div class="col s12">
+                  <ul class="tabs">
+                    <li class="tab col s3"><a href="#fiz">физлицо</a></li>
+                    <li class="tab col s3"><a href="#yur">ЮрЛицо</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div id='fiz'>
+                <div class='row'>
+                  <div class="input-field col s12 l6">
+                    <i class="material-icons prefix">person</i>
+                    <input id="cf_1116" type="text" class="validate">
+                    <label for="cf_1116">ФИО по паспорту</label>
+                  </div>
+                  <div class="input-field col s6 l3">
+                    <input id="cf_1122" type="text" class="validate">
+                    <label for="cf_1122">Серия паспорта</label>
+                  </div>
+                  <div class="input-field col s6 l3">
+                    <input id="cf_1120" type="text" class="validate">
+                    <label for="cf_1120">Номер паспорта</label>
+                  </div>
+                  <div class="input-field col s6 l4">
+                    <input id="cf_1124" type="date" class="validate">
+                    <label for="cf_1124">Дата выдачи</label>
+                  </div>
+                  <div class="input-field col s6 l4">
+                    <input id="cf_1126" type="text" class="validate">
+                    <label for="cf_1126">Кем выдан</label>
+                  </div>
+                  <div class="input-field col s6 l4">
+                    <input id="cf_1128" type="text" class="validate">
+                    <label for="cf_1128">Код подразделения</label>
+                  </div>
+                </div>
+              </div>
+              <div id='yur'>
+                <div class='row'>
+                  <div class="input-field col s4">
+                    <input id="company" type="text" class="validate">
+                    <label for="company">Наименование организации</label>
+                  </div>
+                  <div class="input-field col s4">
+                    <input id="cf_1132" type="text" class="validate">
+                    <label for="cf_1132">Наименование банка</label>
+                  </div>
+                  <div class="input-field col s4">
+                    <input id="cf_1134" type="text" class="validate">
+                    <label for="cf_1134">Расчетный счёт</label>
+                  </div>
+                  <div class="input-field col s4">
+                    <input id="cf_1136" type="text" class="validate">
+                    <label for="cf_1136">ИНН</label>
+                  </div>
+                  <div class="input-field col s4">
+                    <input id="cf_1138" type="text" class="validate">
+                    <label for="cf_1138">КПП</label>
+                  </div>
+                  <div class="input-field col s4">
+                    <input id="cf_1140" type="text" class="validate">
+                    <label for="cf_1140">БИК Банка</label>
+                  </div>
+                  <div class="input-field col s4">
+                    <input id="cf_1142" type="text" class="validate">
+                    <label for="cf_1142">Кор/сч. Банка</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h4 style="text-align: left">Фестиваль:</h4>
+            <div class="input-field col s6">
+              <select class="select" multiple>
+                <option value="" disabled>Выберите</option>
+                <option value="1">26,27 января 2019</option>
+                <option value="2">9,10 февраля 2019</option>
+                <option value="2">23,24 февраля 2019</option>
+                <option value="2">2,3 марта 2019</option>
+                <option value="3">8,9,10 марта 2019</option>
+                <option value="3">23,24 марта 2019</option>
+              </select>
+              <label>Дата участия</label>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">mode_edit</i>
+                <input id="comment" type="text" class="validate">
+                <label for="comment">Ваши пожелания (дополнительный стул, оборудование)</label>
+              </div>
+            </div>
+            <div class="row">
+              <input type="submit"></input>
+              <button class="waves-effect waves-light btn-large" type="submit" name="action">Отослать заявку
+                <i class="material-icons right">send</i>
+              </button>
+            </div>
+
+
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper" style="min-height: 200px">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer teal">
+    <div class="footer-copyright">
+      <div class="container">
+        Hand Made Festival
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+</body>
+
+</html>
