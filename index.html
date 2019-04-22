@@ -18,12 +18,11 @@
       <div class="container">
         <br><br>
         <div class="row center">
-          <h5 class="header col s12 light">Hand Made Festival - всегда уютный и сказочный фестиваль, лучшие мастера
-            Санкт-Петербурга, их удивительные работы и мастер-классы. </h5>
+          <h5 class="header col s12 light"></h5>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="header.jpg" alt="Hand Made Festival"></div>
   </div>
 
   <div class="container">
@@ -33,7 +32,7 @@
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h1>Заявка на участие</h1>
-          <form id="__vtigerWebForm" name="Лиды с hmfest.ru" action="http://hmfest.ru/modules/Webforms/capture.php"
+          <form id="__vtigerWebForm" name="Лиды с hmfest.ru" action="http://crm.hmfest.ru/modules/Webforms/capture.php"
             method="post" accept-charset="utf-8" enctype="multipart/form-data">
             <input type="hidden" name="__vtrftk" value="sid:7fca06e0654bed193337d6031adc0e18a0e4fc56,1555930953">
             <input type="hidden" name="publicid" value="cc625f5e87266a570d2473632f2f62c4">
@@ -54,35 +53,38 @@
               <option value="Word of mouth">По наслышке</option>
               <option value="Other">Другое</option>
             </select>
-            <div class="row">
-              <div class="input-field col s6 l4">
-                <i class="material-icons prefix">person</i>
-                <input id="lastname" type="text" class="validate">
-                <label for="lastname">Фамилия</label>
-              </div>
-              <div class="input-field col s6 l4">
-                <input id="firstname" type="text" class="validate">
-                <label for="firstname">Имя</label>
-              </div>
-              <div class="input-field col s12 l4">
-                <i class="material-icons prefix">link</i>
-                <input id="cf_1114" type="text" class="validate">
-                <label for="cf_1114">Личная страница VK.com</label>
-              </div>
-              <div class="input-field col s12 l4">
-                <i class="material-icons prefix">email</i>
-                <input id="email" type="email" class="validate">
-                <label for="email">Электронная почта (Email)</label>
-              </div>
-              <div class="input-field col s12 l4">
-                <i class="material-icons prefix">phone</i>
-                <input id="mobile" type="text" class="validate">
-                <label for="mobile">Контактный номер телефона</label>
-              </div>
-              <div class="input-field col s12 l4">
-                <i class="material-icons prefix">link</i>
-                <input id="cf_1112" type="text" class="validate">
-                <label for="cf_1112">Группа VK.com или сайт</label>
+            <div>
+              <div class="row">
+                <div class="input-field col s6 l4">
+                  <i class="material-icons prefix">person</i>
+                  <input id="lastname" type="text" class="validate" required>
+                  <label for="lastname">Фамилия <i class="required">*</i></label>
+                </div>
+                <div class="input-field col s6 l4">
+                  <input id="firstname" type="text" class="validate" required>
+                  <label for="firstname">Имя <i class="required">*</i></label>
+                </div>
+                <div class="input-field col s12 l4">
+                  <i class="material-icons prefix">link</i>
+                  <input id="cf_1114" type="text" class="validate" required>
+                  <label for="cf_1114">Личная страница VK.com <i class="required">*</i></label>
+                </div>
+                <div class="input-field col s12 l4">
+                  <i class="material-icons prefix">email</i>
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Электронная почта (Email)</label>
+                  <span class="helper-text" data-error="Введённый email некорректен" data-success="right"></span>
+                </div>
+                <div class="input-field col s12 l4">
+                  <i class="material-icons prefix">phone</i>
+                  <input id="mobile" type="text" class="validate" required>
+                  <label for="mobile">Контактный номер телефона <i class="required">*</i></label>
+                </div>
+                <div class="input-field col s12 l4">
+                  <i class="material-icons prefix">link</i>
+                  <input id="cf_1112" type="text" class="validate" required>
+                  <label for="cf_1112">Группа VK.com или сайт <i class="required">*</i></label>
+                </div>
               </div>
             </div>
             <h4 style="text-align: left">Я участвую как:</h4>
@@ -90,70 +92,66 @@
               <div class="row">
                 <div class="col s12">
                   <ul class="tabs">
-                    <li class="tab col s3"><a href="#fiz">физлицо</a></li>
+                    <li class="tab col s3"><a class="active" href="#fiz">физлицо</a></li>
                     <li class="tab col s3"><a href="#yur">ЮрЛицо</a></li>
                   </ul>
                 </div>
               </div>
-              <div id='fiz'>
-                <div class='row'>
-                  <div class="input-field col s12 l6">
-                    <i class="material-icons prefix">person</i>
-                    <input id="cf_1116" type="text" class="validate">
-                    <label for="cf_1116">ФИО по паспорту</label>
-                  </div>
-                  <div class="input-field col s6 l3">
-                    <input id="cf_1122" type="text" class="validate">
-                    <label for="cf_1122">Серия паспорта</label>
-                  </div>
-                  <div class="input-field col s6 l3">
-                    <input id="cf_1120" type="text" class="validate">
-                    <label for="cf_1120">Номер паспорта</label>
-                  </div>
-                  <div class="input-field col s6 l4">
-                    <input id="cf_1124" type="date" class="validate">
-                    <label for="cf_1124">Дата выдачи</label>
-                  </div>
-                  <div class="input-field col s6 l4">
-                    <input id="cf_1126" type="text" class="validate">
-                    <label for="cf_1126">Кем выдан</label>
-                  </div>
-                  <div class="input-field col s6 l4">
-                    <input id="cf_1128" type="text" class="validate">
-                    <label for="cf_1128">Код подразделения</label>
-                  </div>
+              <div class="row" id='fiz'>
+                <div class="input-field col s12 l6">
+                  <i class="material-icons prefix">person</i>
+                  <input id="cf_1116" type="text" class="validate" required>
+                  <label for="cf_1116">ФИО по паспорту <i class="required">*</i></label>
+                </div>
+                <div class="input-field col s6 l3">
+                  <input id="cf_1122" type="text" class="validate" required>
+                  <label for="cf_1122">Серия паспорта <i class="required">*</i></label>
+                </div>
+                <div class="input-field col s6 l3">
+                  <input id="cf_1120" type="text" class="validate" required>
+                  <label for="cf_1120">Номер паспорта <i class="required">*</i></label>
+                </div>
+                <div class="input-field col s6 l4">
+                  <input id="cf_1124" type="date" class="validate" required>
+                  <label for="cf_1124">Дата выдачи <i class="required">*</i></label>
+                </div>
+                <div class="input-field col s6 l4">
+                  <input id="cf_1126" type="text" class="validate" required>
+                  <label for="cf_1126">Кем выдан <i class="required">*</i></label>
+                </div>
+                <div class="input-field col s6 l4">
+                  <input id="cf_1128" type="text" class="validate" required>
+                  <label for="cf_1128">Код подразделения <i class="required">*</i></label>
                 </div>
               </div>
-              <div id='yur'>
-                <div class='row'>
-                  <div class="input-field col s4">
-                    <input id="company" type="text" class="validate">
-                    <label for="company">Наименование организации</label>
-                  </div>
-                  <div class="input-field col s4">
-                    <input id="cf_1132" type="text" class="validate">
-                    <label for="cf_1132">Наименование банка</label>
-                  </div>
-                  <div class="input-field col s4">
-                    <input id="cf_1134" type="text" class="validate">
-                    <label for="cf_1134">Расчетный счёт</label>
-                  </div>
-                  <div class="input-field col s4">
-                    <input id="cf_1136" type="text" class="validate">
-                    <label for="cf_1136">ИНН</label>
-                  </div>
-                  <div class="input-field col s4">
-                    <input id="cf_1138" type="text" class="validate">
-                    <label for="cf_1138">КПП</label>
-                  </div>
-                  <div class="input-field col s4">
-                    <input id="cf_1140" type="text" class="validate">
-                    <label for="cf_1140">БИК Банка</label>
-                  </div>
-                  <div class="input-field col s4">
-                    <input id="cf_1142" type="text" class="validate">
-                    <label for="cf_1142">Кор/сч. Банка</label>
-                  </div>
+              <div class="row" id='yur'>
+                <div class="input-field col s6 l4">
+                  <input id="company" type="text" class="validate" required>
+                  <label for="company">Наименование организации <i class="required">*</i></label>
+                </div>
+                <div class="input-field col s6 l4">
+                  <input id="cf_1132" type="text" class="validate" required>
+                  <label for="cf_1132">Наименование банка <i class="required">*</i></label>
+                </div>
+                <div class="input-field col s6 l4">
+                  <input id="cf_1134" type="text" class="validate" required>
+                  <label for="cf_1134">Расчетный счёт <i class="required">*</i></label>
+                </div>
+                <div class="input-field col s6 l4">
+                  <input id="cf_1136" type="text" class="validate" required>
+                  <label for="cf_1136">ИНН <i class="required">*</i></label>
+                </div>
+                <div class="input-field col s6 l4">
+                  <input id="cf_1138" type="text" class="validate" required>
+                  <label for="cf_1138">КПП <i class="required">*</i></label>
+                </div>
+                <div class="input-field col s6 l4">
+                  <input id="cf_1140" type="text" class="validate" required>
+                  <label for="cf_1140">БИК Банка <i class="required">*</i></label>
+                </div>
+                <div class="input-field col s6 l4">
+                  <input id="cf_1142" type="text" class="validate" required>
+                  <label for="cf_1142">Кор/сч. Банка <i class="required">*</i></label>
                 </div>
               </div>
             </div>
@@ -178,7 +176,6 @@
               </div>
             </div>
             <div class="row">
-              <input type="submit"></input>
               <button class="waves-effect waves-light btn-large" type="submit" name="action">Отослать заявку
                 <i class="material-icons right">send</i>
               </button>
@@ -200,17 +197,8 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="footer.jpg" alt="Unsplashed background img 3"></div>
   </div>
-
-  <footer class="page-footer teal">
-    <div class="footer-copyright">
-      <div class="container">
-        Hand Made Festival
-      </div>
-    </div>
-  </footer>
-
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

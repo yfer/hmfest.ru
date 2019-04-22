@@ -55,3 +55,18 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+
+.tabs .tab a, .tabs .tab a:active{
+  color:#26a69a !important;
+}
+.tabs .tab a:focus.active {
+  background: transparent;
+}
+.tabs .indicator{
+  background:#26a69a !important;
+}
+
+.required{
+  color:red;
+}
