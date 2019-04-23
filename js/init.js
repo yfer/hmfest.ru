@@ -25,7 +25,7 @@
         description.val(description.val() + ' Даты:' + datess);
         
         var vvv = $('#description').val();
-        // return true;
+        return true;
       }
     });
   }); // end of document ready
