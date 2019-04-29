@@ -21,10 +21,10 @@
         $.each(selected, function(){
           datess += $(this).val() + '; ';
         });
-        var description = $('#description');
-        description.val(description.val() + ' Даты:' + datess);
+        var datesField = $('#dates');
+        datesField.val('Даты:' + datess);
+        var res =  datesField.val();
         
-        var vvv = $('#description').val();
         return true;
       }
     });
