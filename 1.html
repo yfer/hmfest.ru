@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hand Made Festival - заявка на участие</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="header.jpg" alt="Hand Made Festival"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h1>Заявка на участие</h1>
+          <form id="__vtigerWebForm" name="Лиды с hmfest.ru" action="http://crm.hmfest.ru/modules/Webforms/capture.php"
+            method="post" accept-charset="utf-8" enctype="multipart/form-data">
+            <input type="hidden" name="__vtrftk" value="sid:7fca06e0654bed193337d6031adc0e18a0e4fc56,1555930953">
+            <input type="hidden" name="publicid" value="cc625f5e87266a570d2473632f2f62c4">
+            <input type="hidden" name="urlencodeenable" value="1">
+            <input type="hidden" name="name" value="Лиды с hmfest.ru">
+            <select name="leadsource" data-label="leadsource" required="" hidden="">
+              <option value="">Выберите значение</option>
+              <option value="Cold Call">Холодный звонок</option>
+              <option value="Existing Customer">Существующий клиент</option>
+              <option value="Self Generated">Самопроизвольный</option>
+              <option value="Employee">Сотрудник</option>
+              <option value="Partner">Партнер</option>
+              <option value="Public Relations">Публичные связи</option>
+              <option value="Direct Mail">Почтовая рассылка</option>
+              <option value="Conference">Конференция</option>
+              <option value="Trade Show">Выставка</option>
+              <option value="Web Site" selected="">Веб-сайт</option>
+              <option value="Word of mouth">По наслышке</option>
+              <option value="Other">Другое</option>
+            </select>
+            <select name="leadstatus" data-label="leadstatus" required="" hidden="">
+              <option value="">Выберите значение</option>
+              <option value="Новая заявка" selected="">Новая заявка</option>
+              <option value="В работе">В работе</option>
+              <option value="Отменена">Отменена</option>
+              <option value="Ошибка">Ошибка</option>
+            </select>
+            <textarea id="dates" name="cf_1207" hidden=""></textarea>
+            <div>
+              <div class="row">
+                <div class="input-field col s6 l4">
+                  <i class="material-icons prefix">person</i>
+                  <input id="lastname" name="lastname" type="text" required>
+                  <label for="lastname">Фамилия <i class="required">*</i></label>
+                  <span class="helper-text"></span>
+                </div>
+                <div class="input-field col s6 l4">
+                  <input id="firstname" name="firstname" type="text" required>
+                  <label for="firstname">Имя <i class="required">*</i></label>
+                  <span class="helper-text"></span>
+                </div>              
+                <div class="input-field col s12 l4">
+                  <i class="material-icons prefix">phone</i>
+                  <input id="mobile" name="mobile" type="text" required>
+                  <label for="mobile">Контактный номер телефона <i class="required">*</i></label>
+                  <span class="helper-text"></span>
+                </div>
+                <div class="input-field col s12 l6">
+                  <i class="material-icons prefix">link</i>
+                  <input id="cf_1114" name="cf_1114" type="text" required>
+                  <label for="cf_1114">Ссылка на личную страницу VK.com <i class="required">*</i></label>
+                  <span class="helper-text"></span>
+                </div>
+                <div class="input-field col s12 l6">
+                  <i class="material-icons prefix">email</i>
+                  <input id="email" name="email" type="email" class="email">
+                  <label for="email">Электронная почта (Email)</label>
+                  <span class="helper-text"></span>
+                </div>
+  
+                <div class="input-field col s12 l6">
+                  <i class="material-icons prefix">link</i>
+                  <input id="cf_1112" name="cf_1112" type="text">
+                  <label for="cf_1112">Ссылка на группа VK.com, сайт или Instagram.<i class="required">*</i></label>
+                  <span class="helper-text"></span>
+                </div>
+              </div>
+            </div>
+            <h4 style="text-align: left">Я участвую как:</h4>
+            <div>
+              <div class="row">
+                <div class="col s12">
+                  <ul class="tabs">
+                    <li class="tab col s3"><a class="active" href="#fiz">физлицо</a></li>
+                    <li class="tab col s3"><a href="#yur">ЮрЛицо</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row" id='fiz'>
+                <div class="input-field col s12 l6">
+                  <i class="material-icons prefix">person</i>
+                  <input id="cf_1116" name="cf_1116" type="text">
+                  <label for="cf_1116">ФИО по паспорту <i class="required">*</i></label>
+                  <span class="helper-text"></span>
+                </div>
+                <div class="input-field col s6 l3">
+                  <input id="cf_1122" name="cf_1122" type="text" class="digits">
+                  <label for="cf_1122">Серия паспорта <i class="required">*</i></label>
+                  <span class="helper-text"></span>
+                </div>
+                <div class="input-field col s6 l3">
+                  <input id="cf_1120" name="cf_1120" type="text" class="digits">
+                  <label for="cf_1120">Номер паспорта <i class="required">*</i></label>
+                  <span class="helper-text"></span>
+                </div>
+                <div class="input-field col s6 l4">
+                  <input id="cf_1124" name="cf_1124" type="date">
+                  <label for="cf_1124">Дата выдачи <i class="required">*</i></label>
+                  <span class="helper-text"></span>
+                </div>
+                <div class="input-field col s6 l4">
+                  <input id="cf_1126" name="cf_1126" type="text">
+                  <label for="cf_1126">Кем выдан <i class="required">*</i></label>
+                  <span class="helper-text"></span>
+                </div>
+                <div class="input-field col s6 l4">
+                  <input id="cf_1128" name="cf_1128" type="text">
+                  <label for="cf_1128">Код подразделения <i class="required">*</i></label>
+                  <span class="helper-text"></span>
+                </div>
+              </div>
+              <div class="row" id='yur'>
+                <div class="input-field col s6 l4">
+                  <input id="company" name="company" type="text">
+                  <label for="company">Наименование организации <i class="required">*</i></label>
+                  <span class="helper-text"></span>
+                </div>
+                <div class="input-field col s6 l4">
+                  <input id="cf_1132" name="cf_1132" type="text">
+                  <label for="cf_1132">Наименование банка <i class="required">*</i></label>
+                  <span class="helper-text"></span>
+                </div>
+                <div class="input-field col s6 l4">
+                  <input id="cf_1134" name="cf_1134" type="text">
+                  <label for="cf_1134">Расчетный счёт <i class="required">*</i></label>
+                  <span class="helper-text"></span>
+                </div>
+                <div class="input-field col s6 l4">
+                  <input id="cf_1136" name="cf_1136" type="text">
+                  <label for="cf_1136">ИНН <i class="required">*</i></label>
+                  <span class="helper-text"></span>
+                </div>
+                <div class="input-field col s6 l4">
+                  <input id="cf_1138" name="cf_1138" type="text">
+                  <label for="cf_1138">КПП <i class="required">*</i></label>
+                  <span class="helper-text"></span>
+                </div>
+                <div class="input-field col s6 l4">
+                  <input id="cf_1140" name="cf_1140" type="text">
+                  <label for="cf_1140">БИК Банка <i class="required">*</i></label>
+                  <span class="helper-text"></span>
+                </div>
+                <div class="input-field col s6 l4">
+                  <input id="cf_1142" name="cf_1142" type="text">
+                  <label for="cf_1142">Кор/сч. Банка <i class="required">*</i></label>
+                  <span class="helper-text"></span>
+                </div>
+              </div>
+            </div>
+            <h4 style="text-align: left">Фестиваль:</h4>
+            <div class="input-field col s12">
+              <select class="datesselect" multiple>
+                <option value="" disabled>Выберите</option>
+                <option value="Осенняя выставка: 5 октября- 3 ноября 2019">Осенняя выставка: 5 октября - 3 ноября 2019</option>
+                <option value="Зимняя выставка: 7 декабря-7 января">Зимняя выставка: 7 декабря - 7 января</option>
+
+              </select>
+              <label>Даты участия</label>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">mode_edit</i>
+                <textarea id="description" name="description" class="validate materialize-textarea"></textarea>
+                <label for="description">Ваши пожелания (дополнительный стул, оборудование)</label>
+              </div>
+            </div>
+            <div class="row">
+              <button class="waves-effect waves-light btn-large" type="submit" name="action">Отослать заявку
+                <i class="material-icons right">send</i>
+              </button>
+            </div>
+
+
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper" style="min-height: 200px">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+        </div>
+      </div>
+    </div>
+    <div class="parallax"></div>
+  </div>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/localization/messages_ru.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  
+
+</body>
+
+</html>
